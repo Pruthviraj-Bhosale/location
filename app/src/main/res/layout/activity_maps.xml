@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceHasOverlappingRendering="true">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.racksonsit.com.locationtracking.Activity.MapsActivity"
+    />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="3"
+                android:padding="3dp">
+
+                <TextView
+                    android:id="@+id/tv_map_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Default"
+                    android:layout_weight="1"
+                    style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+                <TextView
+                    android:id="@+id/tv_map_satelight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Satelight"
+                    android:layout_weight="1"
+                    style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+                <TextView
+                    android:id="@+id/tv_map_terrian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terrian"
+                    android:layout_weight="1"
+                    style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+                <TextView
+                    android:id="@+id/tv_map_hybrid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hybrid"
+                    android:layout_weight="1"
+                    style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

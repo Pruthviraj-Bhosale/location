@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "472071166974",
+    "firebase_url": "https://locationtracking-31574.firebaseio.com",
+    "project_id": "locationtracking-31574",
+    "storage_bucket": "locationtracking-31574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472071166974:android:51ea251e5a0c50db",
+        "android_client_info": {
+          "package_name": "com.racksonsit.com.locationtracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472071166974-vocllahqetudokgsqc77ka5tnhdppp28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.racksonsit.com.locationtracking",
+            "certificate_hash": "351fb0c0b8e9c8e196c948de7130de19e5f5cf2c"
+          }
+        },
+        {
+          "client_id": "472071166974-r9d3l9oo5okqq0oai8s0h0hmejljqb3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.racksonsit.com.locationtracking",
+            "certificate_hash": "546499e71b7b53c0b42a99b5436cb82ba6528d25"
+          }
+        },
+        {
+          "client_id": "472071166974-eetdd0ptsb65ave3sdidn5jg2vk91cdr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.racksonsit.com.locationtracking",
+            "certificate_hash": "1d7021d3c015b34c3d92ad6898f5acc9c9d98132"
+          }
+        },
+        {
+          "client_id": "472071166974-d1s4n5sk2hvlitbe6hqtkq4phlce8ajr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.racksonsit.com.locationtracking",
+            "certificate_hash": "5f6bac2415c68830281ed4a1a163bf889ec6b344"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjU9wUu9uTqNg5e7sPRQovY_FbdSUcNOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472071166974-i3uh8sk0ajtr6hf84i3shluk833oi1b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

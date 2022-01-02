@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.racksonsit.com.locationtracking.Activity.WelcomeActivity">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:gravity="center_horizontal"/>
+       <TextView
+           android:id="@+id/tv_address"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Current Location"
+           />
+
+
+       <TextView
+           android:id="@+id/tvLatitude"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+
+       <TextView
+           android:id="@+id/latitude_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_marginStart="10dp"
+           android:textIsSelectable="true" />
+
+       <TextView
+           android:id="@+id/longitude_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_marginStart="10dp"
+           android:textIsSelectable="true" />
+
+       <Button
+           android:id="@+id/btn_show_on_map"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Show My Location"/>
+
+       <Button
+           android:id="@+id/btn_show_all"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Stop Background Services"/>
+
+       <TextView
+           android:paddingTop="12dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Active Users List"
+           style="@style/Base.TextAppearance.AppCompat.Headline"
+           android:textColor="@color/colorPrimaryDark"/>
+
+
+
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/recycler_products"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" >
+       </android.support.v7.widget.RecyclerView>
+
+
+
+
+   </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
